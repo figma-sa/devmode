@@ -1,15 +1,35 @@
 :root{
-    --racing-green: #024731;
-    --core-green: #006A4D;
-    --apple-green: #77B800;
+    --sizing-small: 20;
+    --sizing-medium: 40;
+    --sizing-large: 60;
 
     --spacing-reset: 0;
-    --spacing-xxsmall: 4px;
-    --spacing-xsmall: 12px;
-    --spacing-small: 18px;
-    --spacing-medium: 24px;
-    --spacing-large: 30px;
-    --spacing-xlarge: 60px;
+    --spacing-xxsmall: 4;
+    --spacing-xsmall: 12;
+    --spacing-small: 18;
+    --spacing-large: 30;
+    --spacing-xlarge: 60;
+
+    --radius-reset: 0;
+    --radius-small: 4;
+    --radius-medium: 8;
+    --radius-large: 24;
+
+    --colors-grey: #F1F1F1;
+    --colors-mutedgreen: #2D8259;
+    --colors-sand: #C8D882;
+    --colors-orange: #D24702;
+    --colors-darkgrey: #8A8A8A;
+    --colors-purple: #481468;
+    --colors-blue: #2178B0;
+    --colors-applegreen: #77B800;
+    --colors-racinggreen: #024731;
+    --colors-white: #FFFFFF;
+    --spacing-medium: 24;
+    --colors-darkblue: #002973;
+    --colors-coregreen: #006A4D;
+    --colors-red: #DC2A4D;
+    --colors-black: #303030;
 
 }
 .card-account{
