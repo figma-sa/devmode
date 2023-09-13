@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="main.css">
-</head>
-<body>
-
 <div class="card-account">
     <h1>Current Account</h1>
     <p>12-34-56 | 98736455</p>
@@ -12,6 +5,3 @@
     <p>Overdraft remaining <b>£400</b></p>
     <button class="btn-primary">Pay & Transfer</button>
 </div>
-
-</body>
-</html>
