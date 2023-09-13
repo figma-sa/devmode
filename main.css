@@ -1,0 +1,23 @@
+:root{
+    --racing-green: #024731;
+    --core-green: #006A4D;
+    --apple-green: #77B800;
+
+    --spacing-reset: 0;
+    --spacing-xxsmall: 4px;
+    --spacing-xsmall: 12px;
+    --spacing-small: 18px;
+    --spacing-medium: 24px;
+    --spacing-large: 30px;
+    --spacing-xlarge: 60px;
+
+}
+.card-account{
+    display: flex;
+    min-width: var(--Max-Width, 393px);
+    padding: var(--spacing-medium);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-spacing-small);
+    flex-shrink: 0;
+}
