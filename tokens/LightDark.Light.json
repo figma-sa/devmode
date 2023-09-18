@@ -1,4 +1,64 @@
 {
+  "Header": {
+    "background-color": {
+      "$type": "color",
+      "$value": "{Colors.Core Green}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "text-color": {
+      "$type": "color",
+      "$value": "{Colors.White}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    }
+  },
+  "Base": {
+    "background-color": {
+      "$type": "color",
+      "$value": "{Colors.Grey}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{Colors.Black}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    }
+  },
   "Components": {
     "MenuBar": {
       "default-color": {
@@ -15,9 +75,9 @@
           }
         }
       },
-      "border-color": {
+      "background-color": {
         "$type": "color",
-        "$value": "{Colors.Dark Grey}",
+        "$value": "{Colors.White}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -43,53 +103,9 @@
           }
         }
       },
-      "background-color": {
+      "border-color": {
         "$type": "color",
-        "$value": "{Colors.White}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      }
-    },
-    "Button": {
-      "icon": {
-        "$type": "color",
-        "$value": "{Colors.White}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "text-color": {
-        "$type": "color",
-        "$value": "{Colors.White}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "background-color": {
-        "$type": "color",
-        "$value": "{Colors.Core Green}",
+        "$value": "{Colors.Dark Grey}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -103,9 +119,9 @@
       }
     },
     "Card": {
-      "body-color": {
+      "background-color": {
         "$type": "color",
-        "$value": "{Colors.Black}",
+        "$value": "{Colors.White}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -131,7 +147,23 @@
           }
         }
       },
-      "background-color": {
+      "body-color": {
+        "$type": "color",
+        "$value": "{Colors.Black}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "Button": {
+      "text-color": {
         "$type": "color",
         "$value": "{Colors.White}",
         "$description": "",
@@ -144,65 +176,33 @@
             "codeSyntax": {}
           }
         }
-      }
-    }
-  },
-  "Base": {
-    "text": {
-      "$type": "color",
-      "$value": "{Colors.Black}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{Colors.White}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
         }
-      }
-    },
-    "background-color": {
-      "$type": "color",
-      "$value": "{Colors.Grey}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
-      }
-    }
-  },
-  "Header": {
-    "text-color": {
-      "$type": "color",
-      "$value": "{Colors.White}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
-      }
-    },
-    "background-color": {
-      "$type": "color",
-      "$value": "{Colors.Core Green}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
+      },
+      "background-color": {
+        "$type": "color",
+        "$value": "{Colors.Core Green}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
         }
       }
     }
