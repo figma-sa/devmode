@@ -2,7 +2,7 @@
   "Header": {
     "background-color": {
       "$type": "color",
-      "$value": "{Colors.Core Green}",
+      "$value": "{--Primitives.Core Green}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -16,7 +16,7 @@
     },
     "text-color": {
       "$type": "color",
-      "$value": "{Colors.White}",
+      "$value": "{--Primitives.White}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -32,7 +32,7 @@
   "Base": {
     "background-color": {
       "$type": "color",
-      "$value": "{Colors.Grey}",
+      "$value": "{--Primitives.Grey}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -46,7 +46,7 @@
     },
     "text": {
       "$type": "color",
-      "$value": "{Colors.Black}",
+      "$value": "{--Primitives.Black}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -63,7 +63,7 @@
     "MenuBar": {
       "default-color": {
         "$type": "color",
-        "$value": "{Colors.Black}",
+        "$value": "{--Primitives.Black}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -77,7 +77,7 @@
       },
       "background-color": {
         "$type": "color",
-        "$value": "{Colors.White}",
+        "$value": "{--Primitives.White}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -91,7 +91,7 @@
       },
       "active-color": {
         "$type": "color",
-        "$value": "{Colors.Core Green}",
+        "$value": "{--Primitives.Core Green}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -105,7 +105,7 @@
       },
       "border-color": {
         "$type": "color",
-        "$value": "{Colors.Dark Grey}",
+        "$value": "{--Primitives.Dark Grey}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -121,7 +121,7 @@
     "Card": {
       "background-color": {
         "$type": "color",
-        "$value": "{Colors.White}",
+        "$value": "{--Primitives.White}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -135,7 +135,7 @@
       },
       "header-color": {
         "$type": "color",
-        "$value": "{Colors.Core Green}",
+        "$value": "{--Primitives.Core Green}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -149,7 +149,7 @@
       },
       "body-color": {
         "$type": "color",
-        "$value": "{Colors.Black}",
+        "$value": "{--Primitives.Black}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -165,7 +165,7 @@
     "Button": {
       "text-color": {
         "$type": "color",
-        "$value": "{Colors.White}",
+        "$value": "{--Primitives.White}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -179,7 +179,7 @@
       },
       "icon": {
         "$type": "color",
-        "$value": "{Colors.White}",
+        "$value": "{--Primitives.White}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -193,7 +193,7 @@
       },
       "background-color": {
         "$type": "color",
-        "$value": "{Colors.Core Green}",
+        "$value": "{--Primitives.Core Green}",
         "$description": "",
         "$extensions": {
           "com.figma": {
