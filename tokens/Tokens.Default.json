@@ -1,8 +1,22 @@
 {
   "background": {
+    "background-warning": {
+      "$type": "color",
+      "$value": "{colors.Sand}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
     "background-primary": {
       "$type": "color",
-      "$value": "{--Primitives.colors.White}",
+      "$value": "{colors.White}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -12,7 +26,7 @@
             "FRAME_FILL"
           ],
           "codeSyntax": {
-            "WEB": "var(--background-primary)",
+            "WEB": "$background-primary",
             "ANDROID": "background.primary",
             "iOS": "background.primary"
           }
@@ -21,7 +35,7 @@
     },
     "background-secondary": {
       "$type": "color",
-      "$value": "{--Primitives.colors.Grey}",
+      "$value": "{colors.Grey}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -40,7 +54,7 @@
     },
     "background-invert": {
       "$type": "color",
-      "$value": "{--Primitives.colors.Black}",
+      "$value": "{colors.Black}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -59,17 +73,18 @@
     },
     "background-brand": {
       "$type": "color",
-      "$value": "{--Primitives.colors.Core Green}",
+      "$value": "{colors.Core Green}",
       "$description": "",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
+            "TEXT_FILL",
             "SHAPE_FILL",
             "FRAME_FILL"
           ],
           "codeSyntax": {
-            "WEB": "var(--background-brand)",
+            "WEB": "$background-brand",
             "ANDROID": "background.brand",
             "iOS": "background.brand"
           }
@@ -78,7 +93,7 @@
     },
     "background-danger": {
       "$type": "color",
-      "$value": "{--Primitives.colors.Red}",
+      "$value": "{colors.Red}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -96,7 +111,7 @@
   "text": {
     "text-primary": {
       "$type": "color",
-      "$value": "{--Primitives.colors.Black}",
+      "$value": "{colors.Black}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -114,7 +129,7 @@
     },
     "text-secondary": {
       "$type": "color",
-      "$value": "{--Primitives.colors.Dark Grey}",
+      "$value": "{colors.Dark Grey}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -132,7 +147,7 @@
     },
     "text-invert": {
       "$type": "color",
-      "$value": "{--Primitives.colors.White}",
+      "$value": "{colors.White}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -151,7 +166,7 @@
     },
     "text-brand": {
       "$type": "color",
-      "$value": "{--Primitives.colors.Core Green}",
+      "$value": "{colors.Core Green}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -172,7 +187,7 @@
   "icon": {
     "icon-primary": {
       "$type": "color",
-      "$value": "{--Primitives.colors.Black}",
+      "$value": "{colors.Black}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -190,7 +205,7 @@
     },
     "icon-secondary": {
       "$type": "color",
-      "$value": "{--Primitives.colors.Dark Grey}",
+      "$value": "{colors.Dark Grey}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -209,7 +224,7 @@
     },
     "icon-invert": {
       "$type": "color",
-      "$value": "{--Primitives.colors.White}",
+      "$value": "{colors.White}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -228,7 +243,7 @@
     },
     "icon-brand": {
       "$type": "color",
-      "$value": "{--Primitives.colors.Core Green}",
+      "$value": "{colors.Core Green}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -249,7 +264,7 @@
   "border": {
     "border-primary": {
       "$type": "color",
-      "$value": "{--Primitives.colors.Black}",
+      "$value": "{colors.Black}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -267,7 +282,7 @@
     },
     "border-secondary": {
       "$type": "color",
-      "$value": "{--Primitives.colors.Grey}",
+      "$value": "{colors.Grey}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -285,7 +300,7 @@
     },
     "border-invert": {
       "$type": "color",
-      "$value": "{--Primitives.colors.White}",
+      "$value": "{colors.White}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -303,7 +318,7 @@
     },
     "border-brand": {
       "$type": "color",
-      "$value": "{--Primitives.colors.Core Green}",
+      "$value": "{colors.Core Green}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -323,7 +338,7 @@
   "padding": {
     "spacing-none": {
       "$type": "number",
-      "$value": "{--Primitives.spacing.0}",
+      "$value": "{spacing.0}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -341,7 +356,7 @@
     },
     "spacing-xsmall": {
       "$type": "number",
-      "$value": "{--Primitives.spacing.half}",
+      "$value": "{spacing.half}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -359,7 +374,7 @@
     },
     "spacing-small": {
       "$type": "number",
-      "$value": "{--Primitives.spacing.1}",
+      "$value": "{spacing.1}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -377,7 +392,7 @@
     },
     "spacing-medium": {
       "$type": "number",
-      "$value": "{--Primitives.spacing.2}",
+      "$value": "{spacing.2}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -395,7 +410,7 @@
     },
     "spacing-large": {
       "$type": "number",
-      "$value": "{--Primitives.spacing.3}",
+      "$value": "{spacing.3}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -413,7 +428,7 @@
     },
     "spacing-xlarge": {
       "$type": "number",
-      "$value": "{--Primitives.spacing.5}",
+      "$value": "{spacing.5}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -431,7 +446,7 @@
     },
     "spacing-xxlarge": {
       "$type": "number",
-      "$value": "{--Primitives.spacing.7}",
+      "$value": "{spacing.7}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -451,7 +466,7 @@
   "radius": {
     "radius-none": {
       "$type": "number",
-      "$value": "{--Primitives.spacing.0}",
+      "$value": "{spacing.0}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -469,7 +484,7 @@
     },
     "radius-small": {
       "$type": "number",
-      "$value": "{--Primitives.spacing.1}",
+      "$value": "{spacing.1}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -487,7 +502,7 @@
     },
     "radius-medium": {
       "$type": "number",
-      "$value": "{--Primitives.spacing.2}",
+      "$value": "{spacing.2}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -506,7 +521,7 @@
     },
     "radius-large": {
       "$type": "number",
-      "$value": "{--Primitives.spacing.3}",
+      "$value": "{spacing.3}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -540,20 +555,6 @@
             "iOS": "width.min"
           }
         }
-      }
-    }
-  },
-  "background-warning": {
-    "$type": "color",
-    "$value": "#334455",
-    "$description": "",
-    "$extensions": {
-      "com.figma": {
-        "hiddenFromPublishing": false,
-        "scopes": [
-          "ALL_SCOPES"
-        ],
-        "codeSyntax": {}
       }
     }
   }
