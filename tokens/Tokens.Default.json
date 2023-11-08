@@ -2,7 +2,7 @@
   "background": {
     "background-primary": {
       "$type": "color",
-      "$value": "{colors.White}",
+      "$value": "{--Primitives.colors.White}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -21,7 +21,7 @@
     },
     "background-secondary": {
       "$type": "color",
-      "$value": "{colors.Grey}",
+      "$value": "{--Primitives.colors.Grey}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -40,7 +40,7 @@
     },
     "background-invert": {
       "$type": "color",
-      "$value": "{colors.Black}",
+      "$value": "{--Primitives.colors.Black}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -59,7 +59,7 @@
     },
     "background-brand": {
       "$type": "color",
-      "$value": "{colors.Core Green}",
+      "$value": "{--Primitives.colors.Core Green}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -78,7 +78,7 @@
     },
     "background-danger": {
       "$type": "color",
-      "$value": "{colors.Red}",
+      "$value": "{--Primitives.colors.Red}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -96,7 +96,7 @@
   "text": {
     "text-primary": {
       "$type": "color",
-      "$value": "{colors.Black}",
+      "$value": "{--Primitives.colors.Black}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -114,7 +114,7 @@
     },
     "text-secondary": {
       "$type": "color",
-      "$value": "{colors.Dark Grey}",
+      "$value": "{--Primitives.colors.Dark Grey}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -132,7 +132,7 @@
     },
     "text-invert": {
       "$type": "color",
-      "$value": "{colors.White}",
+      "$value": "{--Primitives.colors.White}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -151,7 +151,7 @@
     },
     "text-brand": {
       "$type": "color",
-      "$value": "{colors.Core Green}",
+      "$value": "{--Primitives.colors.Core Green}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -172,7 +172,7 @@
   "icon": {
     "icon-primary": {
       "$type": "color",
-      "$value": "{colors.Black}",
+      "$value": "{--Primitives.colors.Black}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -190,7 +190,7 @@
     },
     "icon-secondary": {
       "$type": "color",
-      "$value": "{colors.Dark Grey}",
+      "$value": "{--Primitives.colors.Dark Grey}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -209,7 +209,7 @@
     },
     "icon-invert": {
       "$type": "color",
-      "$value": "{colors.White}",
+      "$value": "{--Primitives.colors.White}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -228,7 +228,7 @@
     },
     "icon-brand": {
       "$type": "color",
-      "$value": "{colors.Core Green}",
+      "$value": "{--Primitives.colors.Core Green}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -249,7 +249,7 @@
   "border": {
     "border-primary": {
       "$type": "color",
-      "$value": "{colors.Black}",
+      "$value": "{--Primitives.colors.Black}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -267,7 +267,7 @@
     },
     "border-secondary": {
       "$type": "color",
-      "$value": "{colors.Grey}",
+      "$value": "{--Primitives.colors.Grey}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -285,7 +285,7 @@
     },
     "border-invert": {
       "$type": "color",
-      "$value": "{colors.White}",
+      "$value": "{--Primitives.colors.White}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -303,7 +303,7 @@
     },
     "border-brand": {
       "$type": "color",
-      "$value": "{colors.Core Green}",
+      "$value": "{--Primitives.colors.Core Green}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -323,7 +323,7 @@
   "padding": {
     "spacing-none": {
       "$type": "number",
-      "$value": "{spacing.0}",
+      "$value": "{--Primitives.spacing.0}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -341,7 +341,7 @@
     },
     "spacing-xsmall": {
       "$type": "number",
-      "$value": "{spacing.half}",
+      "$value": "{--Primitives.spacing.half}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -359,7 +359,7 @@
     },
     "spacing-small": {
       "$type": "number",
-      "$value": "{spacing.1}",
+      "$value": "{--Primitives.spacing.1}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -377,7 +377,7 @@
     },
     "spacing-medium": {
       "$type": "number",
-      "$value": "{spacing.2}",
+      "$value": "{--Primitives.spacing.2}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -395,7 +395,7 @@
     },
     "spacing-large": {
       "$type": "number",
-      "$value": "{spacing.3}",
+      "$value": "{--Primitives.spacing.3}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -413,7 +413,7 @@
     },
     "spacing-xlarge": {
       "$type": "number",
-      "$value": "{spacing.5}",
+      "$value": "{--Primitives.spacing.5}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -431,7 +431,7 @@
     },
     "spacing-xxlarge": {
       "$type": "number",
-      "$value": "{spacing.7}",
+      "$value": "{--Primitives.spacing.7}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -451,7 +451,7 @@
   "radius": {
     "radius-none": {
       "$type": "number",
-      "$value": "{spacing.0}",
+      "$value": "{--Primitives.spacing.0}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -469,7 +469,7 @@
     },
     "radius-small": {
       "$type": "number",
-      "$value": "{spacing.1}",
+      "$value": "{--Primitives.spacing.1}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -487,7 +487,7 @@
     },
     "radius-medium": {
       "$type": "number",
-      "$value": "{spacing.2}",
+      "$value": "{--Primitives.spacing.2}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -506,7 +506,7 @@
     },
     "radius-large": {
       "$type": "number",
-      "$value": "{spacing.3}",
+      "$value": "{--Primitives.spacing.3}",
       "$description": "",
       "$extensions": {
         "com.figma": {
