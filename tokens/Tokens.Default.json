@@ -84,7 +84,7 @@
             "FRAME_FILL"
           ],
           "codeSyntax": {
-            "WEB": "$background-brand",
+            "WEB": "var(--background-brand)",
             "ANDROID": "background.brand",
             "iOS": "background.brand"
           }
