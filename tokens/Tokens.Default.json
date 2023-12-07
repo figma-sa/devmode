@@ -1,6 +1,6 @@
 {
-  "background": {
-    "background-warning": {
+  "surface": {
+    "warning": {
       "$type": "color",
       "$value": "{colors.Red}",
       "$description": "",
@@ -8,7 +8,9 @@
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "EFFECT_COLOR",
+            "STROKE_COLOR",
+            "FRAME_FILL"
           ],
           "codeSyntax": {}
         }
@@ -73,7 +75,7 @@
     },
     "background-brand": {
       "$type": "color",
-      "$value": "{colors.Core Green}",
+      "$value": "#006a4d",
       "$description": "",
       "$extensions": {
         "com.figma": {
