@@ -9,14 +9,3 @@ export const Primary = {
   },
 };
 
-export const Primary = {
-    args: {
-    buttonType: secondary,
-    state: selected,
-    showIconLeft: false,
-    showLabel: true,
-    showIconRight: true,
-    label: button,
-  },
-};
-
