@@ -12,7 +12,11 @@
             "STROKE_COLOR",
             "FRAME_FILL"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--background-warning)",
+            "ANDROID": "background.warning",
+            "iOS": "background.warning"
+          }
         }
       }
     },
@@ -28,7 +32,7 @@
             "FRAME_FILL"
           ],
           "codeSyntax": {
-            "WEB": "$background-primary",
+            "WEB": "var(--background-primary)",
             "ANDROID": "background.primary",
             "iOS": "background.primary"
           }
@@ -104,7 +108,9 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--background-danger)"
+            "WEB": "var(--background-danger)",
+            "ANDROID": "background.danger",
+            "iOS": "background.danger"
           }
         }
       }
