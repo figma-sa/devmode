@@ -1,1 +1,14 @@
+.btn{
+  display: flex;
+  padding: var(--spacing-small) var(--spacing-medium);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-small);
+  align-self: stretch;
+}
 
+.btn-primary{
+  border-radius: var(--radius-none);
+  border: 1px solid var(--border-brand);
+  background: var(--background-brand);
+}
