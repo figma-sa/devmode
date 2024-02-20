@@ -2,7 +2,7 @@
   "surface": {
     "warning": {
       "$type": "color",
-      "$value": "{colors.Red}",
+      "$value": "{colors.Sand}",
       "$description": "",
       "$extensions": {
         "com.figma": {
